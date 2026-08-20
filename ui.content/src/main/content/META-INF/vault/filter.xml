@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/aem-sandbox-env" mode="merge"/>
+    <filter root="/content/aem-sandbox-env" mode="merge"/>
+    <filter root="/content/dam/aem-sandbox-env" mode="merge">
+        <exclude pattern="/content/dam/aem-sandbox-env(/.*)?"/>
+        <include pattern="/content/dam/aem-sandbox-env/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/aem-sandbox-env/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/aem-sandbox-env" mode="merge"/>
+</workspaceFilter>

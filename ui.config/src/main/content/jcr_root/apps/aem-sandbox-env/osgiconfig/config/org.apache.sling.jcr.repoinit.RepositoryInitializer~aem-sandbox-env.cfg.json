@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/aem-sandbox-env",
+        "create path (nt:unstructured) /content/dam/aem-sandbox-env/jcr:content",
+        "set properties on /content/dam/aem-sandbox-env/jcr:content\n  set cq:conf{String} to /conf/aem-sandbox-env\n  set jcr:title{String} to \"My Cloud Site\"\nend"
+    ]
+}
